@@ -53,7 +53,8 @@ def download_installer():
     """
     # TODO: Step 2
     # Hint: See example code in lab instructions entitled "Downloading a Binary File"
-    response = requests.get("http://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.20-win64.exe")
+    response = requests.get("http://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.21-win64.exe")
+    
     
     return response.content
 
